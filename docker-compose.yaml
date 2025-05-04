@@ -27,7 +27,7 @@ services:
     command: -config.file=/etc/mimir/mimir.yaml
 
   grafana:
-    image: grafana/grafana-enterprise:11.0.0
+    image: grafana/grafana-oss:11.6.1
     ports:
       - "3000:3000"
     volumes:
